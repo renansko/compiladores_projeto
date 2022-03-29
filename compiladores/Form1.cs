@@ -1,5 +1,17 @@
 namespace compiladores
 {
+
+    public class TabelaLexica
+    {
+        public string Digito;
+        public string Valor;
+        public TabelaLexica(string chave, string valor)
+        {
+            Digito = Digito;
+            Valor = valor;
+        }
+    }
+
     public partial class Form1 : Form
     {
         public Form1()
