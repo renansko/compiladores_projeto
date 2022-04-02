@@ -42,22 +42,23 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.col_name = new System.Windows.Forms.ColumnHeader();
             this.Tipo = new System.Windows.Forms.ColumnHeader();
+            this.Valor = new System.Windows.Forms.ColumnHeader();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
+            this.textBox1.Location = new System.Drawing.Point(80, 226);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 23);
+            this.textBox1.Size = new System.Drawing.Size(226, 38);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 41);
+            this.button1.Location = new System.Drawing.Point(80, 283);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 23);
+            this.button1.Size = new System.Drawing.Size(226, 53);
             this.button1.TabIndex = 2;
             this.button1.Text = "enviar";
             this.button1.UseVisualStyleBackColor = true;
@@ -67,16 +68,17 @@
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.col_name,
-            this.Tipo});
+            this.Tipo,
+            this.Valor});
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2,
             listViewItem3});
-            this.listView1.Location = new System.Drawing.Point(522, 12);
+            this.listView1.Location = new System.Drawing.Point(420, 12);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(266, 426);
+            this.listView1.Size = new System.Drawing.Size(368, 426);
             this.listView1.TabIndex = 4;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -84,13 +86,18 @@
             // 
             // col_name
             // 
-            this.col_name.Text = "col_name";
+            this.col_name.Text = "Token";
             this.col_name.Width = 100;
             // 
             // Tipo
             // 
-            this.Tipo.Text = "Col_tipo";
+            this.Tipo.Text = "Significado";
             this.Tipo.Width = 160;
+            // 
+            // Valor
+            // 
+            this.Valor.Text = "Valor";
+            this.Valor.Width = 100;
             // 
             // Form1
             // 
@@ -117,5 +124,6 @@
         private ListView listView1;
         private ColumnHeader col_name;
         private ColumnHeader Tipo;
+        private ColumnHeader Valor;
     }
 }

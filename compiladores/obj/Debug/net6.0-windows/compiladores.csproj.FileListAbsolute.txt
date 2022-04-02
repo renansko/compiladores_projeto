@@ -4,7 +4,6 @@ C:\Users\PlayHard\source\repos\compiladores\compiladores\bin\Debug\net6.0-window
 C:\Users\PlayHard\source\repos\compiladores\compiladores\bin\Debug\net6.0-windows\compiladores.dll
 C:\Users\PlayHard\source\repos\compiladores\compiladores\bin\Debug\net6.0-windows\compiladores.pdb
 C:\Users\PlayHard\source\repos\compiladores\compiladores\obj\Debug\net6.0-windows\compiladores.csproj.AssemblyReference.cache
-C:\Users\PlayHard\source\repos\compiladores\compiladores\obj\Debug\net6.0-windows\compiladores.Form1.resources
 C:\Users\PlayHard\source\repos\compiladores\compiladores\obj\Debug\net6.0-windows\compiladores.csproj.GenerateResource.cache
 C:\Users\PlayHard\source\repos\compiladores\compiladores\obj\Debug\net6.0-windows\compiladores.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\PlayHard\source\repos\compiladores\compiladores\obj\Debug\net6.0-windows\compiladores.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ C:\Users\PlayHard\source\repos\compiladores\compiladores\obj\Debug\net6.0-window
 C:\Users\PlayHard\source\repos\compiladores\compiladores\obj\Debug\net6.0-windows\compiladores.pdb
 C:\Users\PlayHard\source\repos\compiladores\compiladores\obj\Debug\net6.0-windows\compiladores.genruntimeconfig.cache
 C:\Users\PlayHard\source\repos\compiladores\compiladores\obj\Debug\net6.0-windows\ref\compiladores.dll
+C:\Users\PlayHard\source\repos\compiladores\compiladores\obj\Debug\net6.0-windows\compiladores.Form1.resources
