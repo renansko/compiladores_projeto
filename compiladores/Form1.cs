@@ -47,8 +47,7 @@ namespace compiladores
                 {
                     throw new Exception("Formato errado, nao eh possivel ler numero e letra em sequencia");
                 }
-            }
-
+     
             for (int i = 1; i < arr.Length; i++) // percorre todos elementos da array Char
             {
                 if (Char.IsSymbol(arr[i]) || (!Char.IsDigit(arr[i]) && !Char.IsLetter(arr[i])))// identifica quando existir um sibolo
@@ -126,7 +125,7 @@ namespace compiladores
             {
                 tipo = "parenteses";
             }
-
+            tipo = "outros";
             return tipo;
         }
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
