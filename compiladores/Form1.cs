@@ -36,20 +36,21 @@ namespace compiladores
                 MessageBox.Show("Deve digitar o = no começo da equação");
                 return;
             }
-
+            
             for (int k = 0; k < arr.Length; k++)
             {
-                if(k > arr.Count())
+                if(k == arr.Length - 1)
                 {
-                    if (Char.IsNumber(arr[k]) && Char.IsLetter(arr[k + 1]))
-                    {
-                        throw new Exception("Formato errado, nao eh possivel ler numero e letra em sequencia");
-                    }
+                    continue;
+                }
+                if (Char.IsNumber(arr[k]) && Char.IsLetter(arr[k + 1]))
+                {
+                    throw new Exception("Formato errado, nao eh possivel ler numero e letra em sequencia");
                 }
             }
+
             for (int i = 1; i < arr.Length; i++)
             {
-
                 if (Char.IsSymbol(arr[i]) || (!Char.IsDigit(arr[i]) && !Char.IsLetter(arr[i])))
                 {
                     for (int j = start; j < i; j++)
@@ -97,7 +98,6 @@ namespace compiladores
                         start = i + 1;
                         text = "";
                 }
-
             }
         }
 
@@ -106,7 +106,7 @@ namespace compiladores
             string tipo = string.Empty;
             if(simbolo == '+')
             {
-                tipo = "somador";
+                tipo = "mais";
             }
             if(simbolo.ToString() == "-")
             {
